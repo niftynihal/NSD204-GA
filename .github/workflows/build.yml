@@ -7,7 +7,9 @@ jobs:
       steps : 
             - run : node --version
             - run : npm  --version
-            - uses : actions/checkout@v4 
+            - uses : actions/checkout@v4
+            - run : npm cli
+            - run : npx eslint .
             - run : node xyz.js
             - run : node index.js
             - run : node script.js

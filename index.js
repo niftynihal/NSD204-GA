@@ -1,1 +1,1 @@
-console.log("hello from index.js file")
+console.log('hello from index.js file')
