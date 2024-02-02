@@ -8,5 +8,6 @@ jobs:
             - run : node --version
             - run : npm  --version
             - uses : actions/checkout@v4 
+            - run : node xyz.js
             - run : node index.js
             - run : node script.js

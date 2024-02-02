@@ -36,3 +36,13 @@ Rules in YAML
         - value1
         - value2
 4. comments are denoted by #
+
+
+
+The runs in the job happen sequentially,
+
+**If one of the job fails, the subsequent jobs won't get executed**
+
+1. run code formatter
+2. run test cases // for example if test case fails, the next step that is deployment won't be executed
+3. deploy it 
