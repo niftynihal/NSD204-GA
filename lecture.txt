@@ -19,3 +19,20 @@ CI/CD we can :
 
 Github Actions - It's a CI/CD platform by github.
 
+
+Github repo 
+1. create a new repo;
+2. set that up as a origin
+
+
+YAML - Yet Another Markup language/YAML Ain't Markup language
+
+
+Rules in YAML
+
+1. It followed indentation (specific blocks of spaces or tabs)
+2. YML files use key-value pairs
+3. When there are multiple values, they are denoted by hyphen and space and the value;
+        - value1
+        - value2
+4. comments are denoted by #
