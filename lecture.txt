@@ -1,0 +1,21 @@
+
+CI / CD
+
+Continuous Integration
+
+
+
+Continuous Deployment
+
+
+new_code --> {code_formatter} ---> {run test cases} --> existing_code --> {run test cases} --> deploy/redeploy;
+
+
+CI/CD we can : 
+
+1. Automate software development workflows
+2. Automate repetitive tasks
+
+
+Github Actions - It's a CI/CD platform by github.
+
